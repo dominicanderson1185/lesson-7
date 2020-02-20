@@ -5,9 +5,6 @@ const loadImages = (image) => {
     image.removeAttribute('data-src');
   };
 };
-imagesToLoad.forEach((img) => {
-  loadImages(img);
-});
 
 const images = document.querySelectorAll("[data-src]");
 
