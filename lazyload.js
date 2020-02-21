@@ -11,7 +11,7 @@ img.src = src;
 
 const imgOptions = {
     threshold: 1,
-    rootMargin: "-200px"
+    rootMargin: "0px 0px -300px 0px"
 };
 
 
